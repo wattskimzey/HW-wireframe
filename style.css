@@ -6,7 +6,6 @@
     font-size: 18px;
     }
 .wrapper {
-    /* width: 600px; */
     margin: 0 auto 0 auto;
     text-align: center;
     padding: 20px;
@@ -33,28 +32,36 @@ ul {
 .section{
     background-color: #ebebeb;
     text-align: center;
-    width: 895px;
+    width: 600px;
     float: left;
-    /* text-align: center; */
-    /* left: 50%;
-    margin-right: -50%; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 400px;
+    margin-right: 40px;
  }
-aside {
+.aside {
     background-color: #ebebeb;
     text-align: center;
-    float: left;
-    width: 30%;
+    height: 400px;
+    width: 600px;
+    float: right;
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: center;
+    left: 50%;
+    margin-right: -50%;
+    font-size: 18px;
+    
 }
 .article {
     color: #ebebeb;
     background-color: #777;
     width: 80%;
     padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     margin: 0 auto 0;
-    /* padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px; */
+    height: 300px;
 }
 .smallheader {
     background-color: #ebebeb;
@@ -70,12 +77,17 @@ aside {
     text-align: center;
     width:90%;
     margin: 0 auto 0;
-
 }
-footer {
+.footer {
+    clear: both;
     background-color: #ebebeb;
     text-align: center;
-    clear: both;
+    left: 50%;
+    margin-right: -50%;
+    font-size: 18px;
+    padding: 40px;
+    margin-top: 400px;
+    
 }
 .paragraph {
     background-color: #ebebeb;
@@ -85,36 +97,6 @@ footer {
     padding: 10px;
     width: 80%;
     margin: 0 auto 0;
+    padding-top: 0;
+    margin-top: 40px;
 }
-
-
-
-/* h1{
-background-color: #333333;
-color: #eee;
-font-size: 28px;
-margin:auto;
-}
-#container {
-    width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    margin:auto;
-}
-#main-bio{
-    width: 70%
-    float: left;
-}
-#contact-info{
-    float: left;
-    width: 30%;
-    line-height: 1.5;
-}
-#bio-image{
-    float: left;
-    border-width: 25px;
-    width: 200px;
-    margin-right: 25px;
-}
-
- }    */
